@@ -21,8 +21,8 @@ Define the fact table and dimensions and create a star schema.
 Stage 5:
 Create 4 dashboards including recommended analyses:
 
-How does the overall flight volume vary by month? By day of the week?
-What percentage of flights experienced a departure delay in 2015? Among those flights, what was the average delay time, in minutes?
-How does the percentage of delayed flights vary throughout the year? What about for flights leaving from Boston (BOS) specifically?
-How many flights were canceled in 2015? What percentage of cancellations were due to weather? What percentage were due to the airline/carrier?
-Which airlines seem to be the most and least reliable in terms of on-time departure?
+- How does the overall flight volume vary by month? By day of the week?
+- What percentage of flights experienced a departure delay in 2015? Among those flights, what was the average delay time, in minutes?
+- How does the percentage of delayed flights vary throughout the year? What about for flights leaving from Boston (BOS) specifically?
+- How many flights were canceled in 2015? What percentage of cancellations were due to weather? What percentage were due to the airline/carrier?
+- Which airlines seem to be the most and least reliable in terms of on-time departure?
