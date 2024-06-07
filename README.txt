@@ -1,28 +1,29 @@
 Project Description
+Automated Analysis and Visualization of Flight Delays Dataset
 
-Automate the process of downloading, transforming, and cleaning a dataset of flight delays from the Kaggle website, and represent the impact in Power BI. 
-Analyzed 5.82 million rows of data across 40 fields to determine flight volume variations, departure delay percentages and times, cancellation causes, and flight reliability of airlines. This project covered the entire process from ETL (Extract, Transform & Load) to visualization using data from Kaggle.
+This project aimed to automate the process of downloading, transforming, and cleaning a dataset of flight delays from the Kaggle website and represent its impact in Power BI. A comprehensive analysis of 5.82 million rows of data across 40 fields was conducted to determine various metrics, including flight volume variations, departure delay percentages and times, cancellation causes, and flight reliability of airlines. The project encompassed the entire ETL (Extract, Transform & Load) process and visualization using data sourced from Kaggle.
 
+Key Stages:
 
-The challenge of this project was to make it as fully automated as possible.
+Stage 1: Data Acquisition
 
-Stage 1:
-Create a live connection to the Kaggle website through an API by writing a Python code to make a request for downloading the dataset. In the same code, define the destination of the downloaded files so that each time the code runs, it will overwrite the old ones.
+Developed a Python script to create a live connection to the Kaggle website through an API for downloading the dataset.
+Configured the script to overwrite existing files with each execution, ensuring the data remains current.
+Stage 2: Data Preparation
 
-Stage 2:
-Load the data into Power BI and create a Date Dimension using the DAX language.
+Loaded the downloaded data into Power BI and utilized DAX language to create a Date Dimension, essential for time-based analysis.
+Stage 3: Data Cleaning
 
-Stage 3:
-Clean the data and remove unimportant information.
+Performed data cleaning operations to remove irrelevant information and ensure data quality.
+Stage 4: Data Modeling
 
-Stage 4:
-Define the fact table and dimensions and create a star schema.
+Defined the fact table and dimensions, establishing a star schema to facilitate efficient data analysis.
+Stage 5: Dashboard Creation
 
-Stage 5:
-Create 4 dashboards including recommended analyses:
-
-- How does the overall flight volume vary by month? By day of the week?
-- What percentage of flights experienced a departure delay in 2015? Among those flights, what was the average delay time, in minutes?
-- How does the percentage of delayed flights vary throughout the year? What about for flights leaving from Boston (BOS) specifically?
-- How many flights were canceled in 2015? What percentage of cancellations were due to weather? What percentage were due to the airline/carrier?
-- Which airlines seem to be the most and least reliable in terms of on-time departure?
+Created four comprehensive dashboards containing recommended analyses:
+- Analysis of flight volume variations by month and day of the week.
+- Examination of departure delay percentages in 2015, including average delay times for delayed flights.
+- Evaluation of the percentage of delayed flights throughout the year, with a specific focus on flights departing from Boston (BOS).
+- Overview of flight cancellations in 2015, including the percentage attributed to weather and airline/carrier issues.
+- Assessment of airline reliability in terms of on-time departures.
+The project's primary challenge was to ensure full automation, enabling seamless and timely analysis of flight delay data to derive actionable insights.
